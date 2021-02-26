@@ -20,7 +20,6 @@
         android:textColor="@android:color/black"
         android:textSize="14sp"
         android:textStyle="bold" />
-
     <TextView
         android:id="@+id/idTxtDetalheCliente"
         android:layout_width="100sp"
@@ -28,7 +27,6 @@
         android:layout_weight="1"
         android:drawableEnd="@drawable/ic_detalhes_black_24dp"
         android:gravity="center" />
-
     <TextView
         android:id="@+id/idTxtAlterarCliente"
         android:layout_width="100sp"
@@ -36,7 +34,6 @@
         android:layout_weight="1"
         android:drawableEnd="@drawable/ic_alterar_black_24dp"
         android:gravity="center" />
-
     <TextView
         android:id="@+id/idTxtExcluirCliente"
         android:layout_width="100sp"
@@ -44,5 +41,4 @@
         android:layout_weight="1"
         android:drawableEnd="@drawable/ic_excluir_black_24dp"
         android:gravity="center" />
-
 </LinearLayout>
