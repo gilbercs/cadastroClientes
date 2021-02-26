@@ -8,7 +8,6 @@
     android:orientation="horizontal"
     android:paddingStart="@dimen/margem_right"
     android:paddingEnd="@dimen/margem_right">
-
     <TextView
         android:id="@+id/idTxtCliente"
         android:layout_width="match_parent"
