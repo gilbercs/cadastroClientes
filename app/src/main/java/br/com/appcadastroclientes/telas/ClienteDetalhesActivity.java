@@ -11,8 +11,7 @@ import br.com.appcadastroclientes.R;
 import br.com.appcadastroclientes.model.ModelCliente;
 
 public class ClienteDetalhesActivity extends AppCompatActivity {
-
-
+    //Classe java p/ exibir detalhes do cliente
     private TextView txtCliNome, txtCliCelular, txtCliEmail, txtCliEndereco, txtCliObsercao;
     private ModelCliente detalhesClientes = new ModelCliente();
     /*Componentes Inicialização*/
