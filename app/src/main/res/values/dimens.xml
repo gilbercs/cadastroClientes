@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="fab_margin">16sp</dimen>
-
-    <!-- paddin dimensao-->
+    <!--Configuração Tamanho do componentes/titulos/borda/margens-->
     <dimen name="paddgin_left">15sp</dimen>
     <dimen name="paddgin_right">10sp</dimen>
     <dimen name="paddgin_start">10sp</dimen>
