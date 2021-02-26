@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".telas.ClientesActivity"
+    tools:ignore="Autofill">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp">
+
+        <EditText
+            android:id="@+id/idNome"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/personalizar_borda_campo"
+            android:ems="10"
+            android:hint="@string/txt_campo_nome"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/paddgin_start"
+            android:paddingEnd="@dimen/paddgin_end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            app:layout_constraintBottom_toTopOf="@+id/idCelular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/idCelular"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/personalizar_borda_campo"
+            android:ems="10"
+            android:hint="@string/txt_campo_celular"
+            android:inputType="phone"
+            android:paddingStart="@dimen/paddgin_start"
+            android:paddingEnd="@dimen/paddgin_end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idNome" />
+
+        <EditText
+            android:id="@+id/idEmail"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/personalizar_borda_campo"
+            android:ems="10"
+            android:hint="@string/txt_campo_email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/paddgin_start"
+            android:paddingEnd="@dimen/paddgin_end"
+            app:layout_constraintBottom_toTopOf="@+id/idEndereco"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idCelular" />
+
+        <EditText
+            android:id="@+id/idEndereco"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_altura"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/personalizar_borda_campo"
+            android:ems="10"
+            android:hint="@string/txt_campo_endereco"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/paddgin_start"
+            android:paddingEnd="@dimen/paddgin_end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idEmail" />
+
+        <EditText
+            android:id="@+id/idObservacao"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/edit_obs_altura"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/personalizar_borda_campo"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="@string/txt_campo_observacao"
+            android:inputType="textPersonName"
+            android:paddingStart="@dimen/paddgin_start"
+            android:paddingEnd="@dimen/paddgin_end"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idEndereco" />
+
+        <Button
+            android:id="@+id/idBtnCadastro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/personalizar_borda"
+            android:onClick="cadastroCliente"
+            android:text="@string/btn_cadastro"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idObservacao" />
+
+        <Button
+            android:id="@+id/idBtnAlterar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="206dp"
+            android:background="@drawable/personalizar_borda"
+            android:onClick="alterarCliente"
+            android:text="@string/btn_alterar"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/texto_padrao"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idBtnCadastro" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

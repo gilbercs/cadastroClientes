@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idScrollLayoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:fillViewport="true"
+    tools:context=".telas.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp">
+
+        <LinearLayout
+            android:id="@+id/idLinearLayout01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/personalizar_borda"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/idLinearLayout02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/idImgCadastro"
+                android:layout_width="@dimen/imagem_largura"
+                android:layout_height="wrap_content"
+                android:contentDescription="@android:string/no"
+                android:src="@drawable/cadastro" />
+
+            <TextView
+                android:id="@+id/idTxtCadastro"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/titulo_cadastro"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tamanho_titulo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idLinearLayout02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/personalizar_borda"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/idLinearLayout03"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idLinearLayout01">
+
+            <ImageView
+                android:id="@+id/idImgListar"
+                android:layout_width="@dimen/imagem_largura"
+                android:layout_height="@dimen/imagem_altura"
+                android:contentDescription="@android:string/no"
+                android:src="@drawable/listar" />
+
+            <TextView
+                android:id="@+id/idTxtListar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/titulo_listar"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tamanho_titulo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/idLinearLayout03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/personalizar_borda"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/idLinearLayout04"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idLinearLayout02">
+
+            <ImageView
+                android:id="@+id/idImgAlterar"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@android:string/cancel"
+                android:src="@drawable/alterar" />
+
+            <TextView
+                android:id="@+id/idTxtAlterarCliente"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/titulo_alterar"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tamanho_titulo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/idLinearLayout04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/personalizar_borda"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/idLinearLayout03"
+            app:layout_constraintVertical_bias="0.3">
+
+            <ImageView
+                android:id="@+id/idImgExcluir"
+                android:layout_width="@dimen/imagem_largura"
+                android:layout_height="wrap_content"
+                android:contentDescription="@android:string/cancel"
+                android:src="@drawable/excluir" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/titulo_excluir"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/tamanho_titulo"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

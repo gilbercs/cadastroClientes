@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.appcadastroclientes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".telas.SobreActivity"
+            android:label="@string/titulo_sobre"
+            android:parentActivityName=".telas.MainActivity"></activity>
+        <activity
+            android:name=".telas.ClienteDetalhesActivity"
+            android:label="@string/sub_titulo_detalhes"
+            android:parentActivityName=".telas.MainActivity" />
+        <activity
+            android:name=".telas.ListarClienteActivity"
+            android:label="@string/sub_titulo_listar"
+            android:parentActivityName=".telas.MainActivity" /> <!-- Tela cadastro de cliente -->
+        <activity
+            android:name=".telas.ClientesActivity"
+            android:label="@string/sub_titulo_cliente"
+            android:parentActivityName=".telas.MainActivity" />
+        <activity android:name=".telas.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

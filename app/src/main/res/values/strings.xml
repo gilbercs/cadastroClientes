@@ -1,0 +1,28 @@
+<resources>
+    <!--Configuração Nome do Aplicativo-->
+    <string name="app_name">App Cadastro Clientes</string>
+    <!--Configuração Nome Titulos-->
+    <string name="titulo_cadastro">Cadastro</string>
+    <string name="titulo_listar">Listar</string>
+    <string name="titulo_alterar">Alterar</string>
+    <string name="titulo_excluir">Excluir</string>
+    <string name="titulo_sobre">Sobre</string>
+    <string name="titulo_sair">Sair</string>
+    <!--Configuração de Sub Titulos-->
+    <string name="sub_titulo_cliente">Cadastro Cliente</string>
+    <string name="sub_titulo_listar">Lista Clientes</string>
+    <string name="sub_titulo_detalhes">Detalhes Cliente</string>
+    <string name="sub_titulo_descricao">Descrição do App</string>
+    <!--Configuração Campo-->
+    <string name="txt_campo_nome">Nome Completo</string>
+    <string name="txt_campo_celular">(xx) xxxxx-xxxx</string>
+    <string name="txt_campo_email">exemplo@gmail.com</string>
+    <string name="txt_campo_endereco">rua 24 de março</string>
+    <string name="txt_campo_observacao">Observação (Opcional)</string>
+    <!--Configuração do Botão-->
+    <string name="btn_cadastro">Cadastro</string>
+    <string name="btn_alterar">Alterar</string>
+    <!--Configuração Texto-->
+    <string name="txt_resultado">Resultado...</string>
+
+</resources>

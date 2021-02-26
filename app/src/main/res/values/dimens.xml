@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16sp</dimen>
+
+    <!-- paddin dimensao-->
+    <dimen name="paddgin_left">15sp</dimen>
+    <dimen name="paddgin_right">10sp</dimen>
+    <dimen name="paddgin_start">10sp</dimen>
+    <dimen name="paddgin_end">5sp</dimen>
+    <!--tamanho do editText-->
+    <dimen name="edit_largura">320sp</dimen>
+    <dimen name="edit_altura">40sp</dimen>
+    <!--Altura da caixa de text observação-->
+    <dimen name="edit_obs_altura">100sp</dimen>
+    <!--Configuração da dimensão da imagen-->
+    <dimen name="margem_left">10sp</dimen>
+    <dimen name="margem_right">10sp</dimen>
+    <dimen name="margem_top">10sp</dimen>
+    <dimen name="margem_buttom">2sp</dimen>
+    <!--configuração botao-->
+    <dimen name="botao_altura">40sp</dimen>
+    <dimen name="botao_largura">320sp</dimen>
+    <dimen name="botao_margem_top">20sp</dimen>
+    <!--configurar tamanho da imagem-->
+    <dimen name="imagem_altura">96sp</dimen>
+    <dimen name="imagem_largura">110sp</dimen>
+    <!--configurar tamanho da fonte-->
+    <dimen name="texto_padrao">18sp</dimen>
+    <dimen name="tamanho_titulo">30sp</dimen>
+    <!--configurar tamanho borda e circulo-->
+    <dimen name="dimensao_circulo">10sp</dimen>
+    <dimen name="dimensao_circulo_campo">8sp</dimen>
+    <dimen name="dimensao_borda">2sp</dimen>
+
+
+</resources>

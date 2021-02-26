@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Menu Listar-->
+    <item android:title="@string/titulo_listar"
+        android:orderInCategory="100"
+        android:id="@+id/idMenuLista"
+        app:showAsAction="never"/>
+    <!--Menu alterar-->
+    <item android:title="@string/titulo_alterar"
+        android:orderInCategory="200"
+        android:id="@+id/idMenuAlterar"
+        app:showAsAction="never"/>
+    <!--Menu Excluir-->
+    <item android:title="@string/titulo_excluir"
+        android:orderInCategory="300"
+        android:id="@+id/idMenuExcluir"
+        app:showAsAction="never"/>
+
+</menu>
