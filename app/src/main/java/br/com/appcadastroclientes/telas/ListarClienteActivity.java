@@ -19,19 +19,18 @@ import br.com.appcadastroclientes.dao.DaoCliente;
 import br.com.appcadastroclientes.model.ModelCliente;
 
 public class ListarClienteActivity extends AppCompatActivity {
+    //Classe Java, p/ lista clientes cadastrados
     //declaração de variavel
     private RecyclerView recyclerViewCliente;
     private AdapterCliente adapterCliente;
     private List<ModelCliente> listCliente = new ArrayList<>();
     private TextView txtDelete;
-
     //metodos da classe
     //1-metodo de inicilizar componentes
     public void inicializarComponentes() {
         recyclerViewCliente = (RecyclerView) findViewById(R.id.idRecyclerViewListarCliente);
         txtDelete = (TextView) findViewById(R.id.idTxtExcluirCliente);
     }
-
     //2-metodo para carregar Lista de clientes
     public void carregarListacliente() {
         //lista clientes do banco de dados
@@ -51,7 +50,6 @@ public class ListarClienteActivity extends AppCompatActivity {
         recyclerViewCliente.addItemDecoration(new DividerItemDecoration(getApplicationContext(), LinearLayout.VERTICAL));
         recyclerViewCliente.setAdapter(adapterCliente);
     }
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
