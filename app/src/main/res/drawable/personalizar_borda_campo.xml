@@ -6,5 +6,4 @@
     <stroke android:width="@dimen/dimensao_borda"
         android:color="@color/colorBorda"/>
     <corners android:radius="@dimen/dimensao_circulo"/>
-
 </shape>
