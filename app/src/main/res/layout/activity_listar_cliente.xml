@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".telas.ListarClienteActivity">
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRecyclerViewListarCliente"
         android:layout_width="0dp"
