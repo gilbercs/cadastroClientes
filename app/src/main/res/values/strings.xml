@@ -1,5 +1,5 @@
 <resources>
-    <!--Configuração Nome do Aplicativo-->
+    <!--Configuração String do Aplicativo-->
     <string name="app_name">App Cadastro Clientes</string>
     <!--Configuração Nome Titulos-->
     <string name="titulo_cadastro">Cadastro</string>
