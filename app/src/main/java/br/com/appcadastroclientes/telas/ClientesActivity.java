@@ -20,6 +20,7 @@ import br.com.appcadastroclientes.dao.DaoCliente;
 import br.com.appcadastroclientes.model.ModelCliente;
 
 public class ClientesActivity extends AppCompatActivity {
+    //Classe java para entrada de dados: cadastro de cliente
     //declaração dos componentes
     private EditText campoNome, campoCelular, campoEmail, campoEndereco, campoObservacao;
     private String idCodigo;
@@ -185,13 +186,11 @@ public class ClientesActivity extends AppCompatActivity {
         inicializarComponentes();
         recebendoDadosAlterar();
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_cliente,menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
