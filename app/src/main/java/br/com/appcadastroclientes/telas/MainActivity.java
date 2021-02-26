@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import br.com.appcadastroclientes.R;
 
 public class MainActivity extends AppCompatActivity {
+    //Classe Java Principal do App
     //declaração de camponentes do tipo linearLayout
     private LinearLayout linearCadastro;
     private LinearLayout linearListar;
