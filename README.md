@@ -1,4 +1,4 @@
-# Aplicativos cadastro de clientes  ![visitors](https://visitor-badge.laobi.icu/badge?page_id=cadastroClientes)
+# Aplicativos cadastro de clientes.
 _Aplicativos cadastro de cliente desenvolvidona **linguagem de programação JAVA** + banco de dados **SQLite** + **XML** utilizando a **IDE Android Studio**. Neste projeto você encontra um **CRUD completo**_.
 #### _Principais funções_:
 - [x] _Cadastro_.
